@@ -205,7 +205,7 @@ def receive_data(idSession):
 			
 			if x == "" and y == "" and resource == "":
 				#Neste bloco está sendo atualizado a última linha que significa o timestamp e a tela atual passado pelo Player
-				with open("sessions-Logs/"+idSession+"/"+idUser+"_log.csv") as f:
+				with open("sessions-Logs/"+idSession+"/"+idUser+"_log.csv", "a+") as f:
 					lines = f.readlines()
 					if len(lines) > 0:
 						lineOld = lines[-1] #pega ultima linha
@@ -228,7 +228,7 @@ def receive_data(idSession):
 						fileaux.close()
 
 			else:
-				with open("sessions-Logs/"+idSession+"/"+idUser+"_log.csv") as f:
+				with open("sessions-Logs/"+idSession+"/"+idUser+"_log.csv", "a+") as f:
 					lines = f.readlines()
 					lineOld = lines[-1] #pega ultima linha
 					f.close()
