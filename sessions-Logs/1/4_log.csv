@@ -3509,4 +3509,11 @@
 1;2;1480210281416;click;index.html;item;a;122;738
 1;2;1480210285038;click;index.html;Q:1:H:1-1 btn btn-primary btn-lg;a;156;434
 1;2;1480210317617;click;index.html;Q:1:H:1-1 btn btn-primary btn-lg;a;159;425
-1;2;1480210365257;;questionario.html;Q:1:H:1-1;;;
+1;4;1480903508689;click;setup.html;btn btn-info btn-lg;button;190;263
+1;4;1480903562336;click;setup.html;btn btn-info btn-lg;button;183;264
+1;4;1480903563674;click;setup.html;btn btn-info btn-lg;button;185;264
+1;4;1480903563857;click;setup.html;btn btn-info btn-lg;button;185;264
+1;4;1480903613891;click;setup.html;btn btn-info btn-lg;button;162;262
+1;4;1480903614053;click;setup.html;btn btn-info btn-lg;button;162;262
+1;4;1480903688600;click;setup.html;btn btn-info btn-lg;button;184;255
+1;4;1480903694602;;setup.html;btn btn-info btn-lg;;;

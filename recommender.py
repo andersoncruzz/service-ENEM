@@ -2,7 +2,7 @@ def recommender (user, recommender, idQuestion, timestamp):
 	
 	flagUserExists = False
 	#Verificando se o usuario existe na lista do recommender
-	print "recommender 1"
+	#print "recommender 1"
 	for userActives in recommender:
 		if userActives[0][0] == user:
 			flagUserExists = True
@@ -10,17 +10,17 @@ def recommender (user, recommender, idQuestion, timestamp):
 	if flagUserExists == False:
 		#print "if"
 		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]]])
-	print "recommender 2"
+	#print "recommender 2"
 	#print "BTN :" + btnTroca	
 	if len(recommender) > 0:
-		print "recommender 3"
+		#print "recommender 3"
 		#i = 0
 		#recommendation = "ok"
 		#gerando a recomendacao para o usuario
 		for userActives in recommender:
 			if userActives[0][0] == user:
 				#Nao passou pela questao facil
-				print "recommender 4"
+				#print "recommender 4"
 				if userActives[idQuestion][1][0] == True:
 					#recommendation = "ok"
 					print "Esta Questao ja utilizou todas as adaptacoes"				
@@ -74,7 +74,7 @@ def recommender (user, recommender, idQuestion, timestamp):
 								questions = userActives[0][2]
 				else:
 					#userActives[0][1] = -1
-					print "recommender 5"
+					#print "recommender 5"
 					#print "Adptacao OKKK"
 					recommendation = userActives[idQuestion][3][0]
 					questions = userActives[0][2]
@@ -87,13 +87,13 @@ def recommender (user, recommender, idQuestion, timestamp):
 		feedback.append(recommender)
 		feedback.append(recommendation)
 		feedback.append(questions)
-		print "recommender 6"
+		#print "recommender 6"
 		#print feedback
 		return feedback 																
 
 def lastRecommendation (user, recommender, idQuestion, timestamp):
 	flagUserExists = False
-	print "last 1"
+	#print "last 1"
 	#Verificando se o usuario existe na lista do recommender
 	for userActives in recommender:
 		if userActives[0][0] == user:
@@ -103,19 +103,19 @@ def lastRecommendation (user, recommender, idQuestion, timestamp):
 		#print "if"
 		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]]])
 
-	print "last 3"
+	#print "last 3"
 	#print "BTN :" + btnTroca	
 	if len(recommender) > 0:
 		i = 0
-		print "last 3"
+		#print "last 3"
 		for userActives in recommender:
 			if userActives[0][0] == user:
 				#Nao passou pela questao facil
 				recommendation =  userActives[idQuestion][3][0]
 				questions = userActives[0][2]
-				print ""
+				#print ""
 
-		print "last 4"		
+		#print "last 4"		
 		#print ""					
 		feedback = []
 		feedback.append(recommender)
@@ -126,21 +126,21 @@ def lastRecommendation (user, recommender, idQuestion, timestamp):
 
 def changeBtnQuestionEasy(user, recommender, idQuestion, timestamp):
 	flagUserExists = False
-	print "change 1"
+	#print "change 1"
 	#Verificando se o usuario existe na lista do recommender
 	for userActives in recommender:
 		if userActives[0][0] == user:
 			flagUserExists = True
 		#adicionando na lista do recomender este usuario
-	print "change 2"
+	#print "change 2"
 	if flagUserExists == False:
 		#print "if"
 		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]]])
-	print "change 3"
+	#print "change 3"
 	#print "BTN :" + btnTroca	
 	if len(recommender) > 0:
 		i = 0
-		print "change 4"
+		#print "change 4"
 		for userActives in recommender:
 			if userActives[0][0] == user:
 				#Nao passou pela questao facil
@@ -153,11 +153,11 @@ def changeBtnQuestionEasy(user, recommender, idQuestion, timestamp):
 				userActives[idQuestion][3][0] = "Q"+ str(idQuestion) + "-easy"
 				#userActives[idQuestion][3][0] = "ok"
 				recommendation =  userActives[idQuestion][3][0]
-				print ""
+				#print ""
 
 
 		#print ""		
-		print "change 5"			
+		#print "change 5"			
 		feedback = []
 		feedback.append(recommender)
 		feedback.append(recommendation)

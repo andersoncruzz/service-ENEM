@@ -116,6 +116,7 @@ def searchAdaptation(user, timestamp, event, idView):
 	print ""
 	return feedback
 
+
 def updateQuestionsTime(user, timestamp, idView):
 	idQuestion = idView.split(":")
 	idQ.append(idQuestion[1])
@@ -260,7 +261,9 @@ def receive_data(idSession):
 				if idView != "" and (idView == "troca-Q1 btn btn-info btn-lg" or idView == "troca-Q2 btn btn-info btn-lg" or idView == "troca-Q3 btn btn-info btn-lg"):
 					#btnTroca[0] = "1"
 					changeBtnQuestionEasy(idUser, recomendation, int(idView[7]), int(timestamp))
-					print "AQUI BTN"
+					#print "AQUI BTN"
+				#print "aquiii"
+				#print sumario	
 				
 				if idView != "" and idView[0] == "Q":
 					idViewSplit = idView.split(":")
@@ -275,11 +278,11 @@ def receive_data(idSession):
 						#print "----Teste Recommendation OOOOOI------", recommendation
 						return jsonify({'recommendation': recommendation})
 					else:
-						print "AQUI ELSE1"
+						#print "AQUI ELSE1"
 						recommendation = [{"recommendation": "ok"}, {"questions": "nada"} ]
 						return jsonify({'recommendation': recommendation})
 				else:
-					print "AQUI ELSE2"
+					#print "AQUI ELSE2"
 					recommendation = [{"recommendation": "ok"}, {"questions": "nada"}]
 					return jsonify({'recommendation': recommendation})
 			except:
