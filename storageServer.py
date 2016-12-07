@@ -15,6 +15,7 @@ import threading
 import sys, errno
 from banco import newTeacher, searchTeacher
 from werkzeug import secure_filename
+from datetime import *
 
 sumario = list()
 #sumarioL = list()
@@ -100,6 +101,13 @@ def searchAdaptation(user, timestamp, event, idView):
 	recomendationUser = analytics(user, sumario, idView)
 	print "sumario"
 	print sumario
+
+	dt = datetime.now()
+	strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-" +user+";" + str(sumario) + "\n"
+	logService = open("SERVICE_log.csv", "a+")
+	logService.write(strTimeDate)
+	logService.close()
+
 	#print ""
 	#print "recomendation"
 	#print recomendation
@@ -255,6 +263,11 @@ def receive_data(idSession):
 
 			print idSession+";"+idUser+";"+timestamp+";"+event +";"+ tela +";"+idView+";"+resource+";"+x+";"+y
 			print ""
+			dt = datetime.now()
+			strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-" + idUser+";"+timestamp+";"+event +";"+ tela +";"+idView+";"+resource+";"+x+";"+y + "\n"
+			logService = open("SERVICE_log.csv", "a+")
+			logService.write(strTimeDate)
+			logService.close()
 			#print "btn Storage" + btnTroca[0]
 			#Solicita recomendacao caso o aluno estiver em uma questao
 			try:
@@ -274,6 +287,14 @@ def receive_data(idSession):
 					if len(feedback) > 0:
 						print "Recomendação(SENT): " + feedback[1]
 						print "Questions (SENT): " + feedback[2]
+						
+						dt = datetime.now()
+						strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-"+ idUser + ";" + "Recomendacao(SENT): " + feedback[1] + ";" + "Questions (SENT): " + feedback[2] + "\n"
+						#strTimeDate = "ok\n"
+						logService = open("SERVICE_log.csv", "a+")
+						logService.write(strTimeDate)
+						logService.close()						
+
 						recommendation = [{"recommendation": feedback[1]}, {"questions":feedback[2]}]
 						#print "----Teste Recommendation OOOOOI------", recommendation
 						return jsonify({'recommendation': recommendation})
@@ -286,11 +307,21 @@ def receive_data(idSession):
 					recommendation = [{"recommendation": "ok"}, {"questions": "nada"}]
 					return jsonify({'recommendation': recommendation})
 			except:
-				print "Broken"
+				print "Broken1"
+				dt = datetime.now()
+				strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-" +idUser+";" + "Broken1" + "\n"
+				logService = open("SERVICE_log.csv", "a+")
+				logService.write(strTimeDate)
+				logService.close()
 				pass
 				
 		except:
-			print "Broken"
+			print "Broken2"
+			dt = datetime.now()
+			strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-" +idUser+";" + "Broken2" + "\n"
+			logService = open("SERVICE_log.csv", "a+")
+			logService.write(strTimeDate)
+			logService.close()
 			pass
 
 @app.route("/realtime/<idSession>", methods=["GET"])

@@ -1,3 +1,5 @@
+from datetime import *
+
 def recommender (user, recommender, idQuestion, timestamp):
 	
 	flagUserExists = False
@@ -29,7 +31,7 @@ def recommender (user, recommender, idQuestion, timestamp):
 					if userActives[idQuestion][0][0] == False:
 						if userActives[idQuestion][0][1] == False:
 							userActives[idQuestion][0][1] = True
-							print "D"+str(idQuestion)+"-hard;"	
+							print "D"+str(idQuestion)+"-hard;"								
 							recommendation = "D"+str(idQuestion)+"-hard" + ";"
 							userActives[idQuestion][3][0] = recommendation
 							questions = userActives[0][2]
@@ -82,7 +84,13 @@ def recommender (user, recommender, idQuestion, timestamp):
 
 
 		#print ""
-		#userActives[0][2] = recommendation					
+		#userActives[0][2] = recommendation	
+		dt = datetime.now()
+		strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-" + user+";"+str(recommendation) + "\n"
+		logService = open("SERVICE_log.csv", "a+")
+		logService.write(strTimeDate)
+		logService.close()
+
 		feedback = []
 		feedback.append(recommender)
 		feedback.append(recommendation)
