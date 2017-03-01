@@ -11,7 +11,7 @@ def recommender (user, recommender, idQuestion, timestamp):
 		#adicionando na lista do recomender este usuario
 	if flagUserExists == False:
 		#print "if"
-		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]]])
+		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q4-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q5-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q6-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q7-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q8-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q9-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q10-hard"]]])
 	#print "recommender 2"
 	#print "BTN :" + btnTroca	
 	if len(recommender) > 0:
@@ -109,7 +109,7 @@ def lastRecommendation (user, recommender, idQuestion, timestamp):
 		#adicionando na lista do recomender este usuario
 	if flagUserExists == False:
 		#print "if"
-		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]]])
+		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q4-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q5-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q6-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q7-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q8-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q9-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q10-hard"]]])
 
 	#print "last 3"
 	#print "BTN :" + btnTroca	
@@ -143,7 +143,7 @@ def changeBtnQuestionEasy(user, recommender, idQuestion, timestamp):
 	#print "change 2"
 	if flagUserExists == False:
 		#print "if"
-		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]]])
+		recommender.append([[user, timestamp, "Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard"], [[False,False,False,False], [False,False,False,False],["0"], ["Q1-hard"]],[[False,False,False,False], [False,False,False,False], ["0"], ["Q2-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q3-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q4-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q5-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q6-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q7-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q8-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q9-hard"]],[[False,False,False,False], [False,False,False,False],["0"], ["Q10-hard"]]])
 	#print "change 3"
 	#print "BTN :" + btnTroca	
 	if len(recommender) > 0:

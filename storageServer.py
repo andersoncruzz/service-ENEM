@@ -281,7 +281,7 @@ def receive_data(idSession):
 				if idView != "" and idView[0] == "Q":
 					idViewSplit = idView.split(":")
 					#print idViewSplit
-					updateQuestionsTime(idUser, timestamp, idView)
+					#updateQuestionsTime(idUser, timestamp, idView)
 					feedback = searchAdaptation(idUser, timestamp, event, idView)
 					#print feedback			
 					if len(feedback) > 0:
