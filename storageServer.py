@@ -5,6 +5,7 @@ from flask_cors import CORS, cross_origin
 #from flask.ext.cors import CORS, cross_origin
 from sumario import LoadSummarizerByUser
 from sumario import LoadQuestionTime
+from sumario import ClearSummarizerByUser
 from analytics import analytics
 from cut import cut
 from recommender import recommender, lastRecommendation, changeBtnQuestionEasy
@@ -26,7 +27,7 @@ status_class = False
 idQu = list()
 #btnTroca = list()
 #btnTroca.append("0")
-
+#global sumario
 app = Flask('storage', static_folder='realtime')
 CORS(app)
 #moveBufferHttpRest_to_BufferChangeLogger = False
@@ -90,12 +91,12 @@ mutex = 0
 
 def searchAdaptation(user, timestamp, event, idView):
 
-	global mutex
-	global sumario
-	while mutex:# getSemaforo(session):
-		pass
-	mutex = 1#setSemaforo(session)
+	#global mutex
+	#while mutex:# getSemaforo(session):
+	#	pass
+	#mutex = 1#setSemaforo(session)
 	#atualiza o sumario
+	global sumario
 	sumario = LoadSummarizerByUser(user, timestamp, event, idView, sumario)
 	#sumarioL = sumario
 	recomendationUser = analytics(user, sumario, idView)
@@ -273,7 +274,13 @@ def receive_data(idSession):
 			try:
 				if idView != "" and (idView == "troca-Q1 btn btn-info btn-lg" or idView == "troca-Q2 btn btn-info btn-lg" or idView == "troca-Q3 btn btn-info btn-lg" or idView == "troca-Q4 btn btn-info btn-lg" or idView == "troca-Q5 btn btn-info btn-lg" or idView == "troca-Q6 btn btn-info btn-lg" or idView == "troca-Q7 btn btn-info btn-lg" or idView == "troca-Q8 btn btn-info btn-lg" or idView == "troca-Q9 btn btn-info btn-lg" or idView == "troca-Q10 btn btn-info btn-lg"):
 					#btnTroca[0] = "1"
-					changeBtnQuestionEasy(idUser, recomendation, int(idView[7]), int(timestamp))
+					print "IDVIEW: " + idView
+					auxIdView = idView.split(" ")
+					aux = auxIdView[0]
+					print "aux" + aux
+					i = aux.find("Q")
+					print "AUX: " + aux[i+1:]
+					changeBtnQuestionEasy(idUser, recomendation, int(aux[i+1:]), int(timestamp))
 					#print "AQUI BTN"
 				#print "aquiii"
 				#print sumario	
@@ -303,7 +310,14 @@ def receive_data(idSession):
 						recommendation = [{"recommendation": "ok"}, {"questions": "nada"} ]
 						return jsonify({'recommendation': recommendation})
 				else:
-					#print "AQUI ELSE2"
+					#idUser, event, timestamp, idView, sumarioL
+					print "aqui2"
+					#global sumario
+					print "aqui"
+					#print ""+idUser +"/"+ timestamp +"/"+ event +"/"+ idView +"/"
+					#sumario = ClearSummarizerByUser(idUser, timestamp, event, idView, sumario)
+					print "\nSUMARIO NOVO CODIGO"
+					print sumario
 					recommendation = [{"recommendation": "ok"}, {"questions": "nada"}]
 					return jsonify({'recommendation': recommendation})
 			except:
