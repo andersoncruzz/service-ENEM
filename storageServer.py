@@ -271,7 +271,7 @@ def receive_data(idSession):
 			#print "btn Storage" + btnTroca[0]
 			#Solicita recomendacao caso o aluno estiver em uma questao
 			try:
-				if idView != "" and (idView == "troca-Q1 btn btn-info btn-lg" or idView == "troca-Q2 btn btn-info btn-lg" or idView == "troca-Q3 btn btn-info btn-lg"):
+				if idView != "" and (idView == "troca-Q1 btn btn-info btn-lg" or idView == "troca-Q2 btn btn-info btn-lg" or idView == "troca-Q3 btn btn-info btn-lg" or idView == "troca-Q4 btn btn-info btn-lg" or idView == "troca-Q5 btn btn-info btn-lg" or idView == "troca-Q6 btn btn-info btn-lg" or idView == "troca-Q7 btn btn-info btn-lg" or idView == "troca-Q8 btn btn-info btn-lg" or idView == "troca-Q9 btn btn-info btn-lg" or idView == "troca-Q10 btn btn-info btn-lg"):
 					#btnTroca[0] = "1"
 					changeBtnQuestionEasy(idUser, recomendation, int(idView[7]), int(timestamp))
 					#print "AQUI BTN"

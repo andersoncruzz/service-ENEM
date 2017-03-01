@@ -30281,3 +30281,253 @@ ok
 1/3/2017-12:34:8-1234;[u'1234;1488386028679;20000;Q:9:H:1-1 list-group-item']
 1/3/2017-12:34:8-1234;D9-hard;C9-hard;
 1/3/2017-12:34:8-1234;Recomendacao(SENT): D9-hard;C9-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:6-1234;1488386106679;;questionario.html#;Q:9:H:1-1 list-group-item;;;
+1/3/2017-12:35:6-1234;[u'1234;1488386106679;0;Q:9:H:1-1 list-group-item']
+1/3/2017-12:35:6-1234;Recomendacao(SENT): Q9-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:8-1234;1488386108679;;questionario.html#;Q:9:H:1-1 list-group-item;;;
+1/3/2017-12:35:8-1234;[u'1234;1488386106679;2000;Q:9:H:1-1 list-group-item']
+1/3/2017-12:35:8-1234;Recomendacao(SENT): Q9-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:9-1234;1488386109897;click;questionario.html#;Q:6:H:1-3 list-group-item;a;79;371
+1/3/2017-12:35:9-1234;[u'1234;1488386109897;0;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:9-1234;Recomendacao(SENT): Q6-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:11-1234;1488386111897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:11-1234;[u'1234;1488386109897;2000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:11-1234;Recomendacao(SENT): Q6-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:13-1234;1488386113897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:13-1234;[u'1234;1488386109897;4000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:13-1234;Recomendacao(SENT): Q6-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:15-1234;1488386115897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:15-1234;[u'1234;1488386109897;6000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:15-1234;Recomendacao(SENT): Q6-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:17-1234;1488386117897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:17-1234;[u'1234;1488386109897;8000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:17-1234;D6-hard;
+1/3/2017-12:35:17-1234;Recomendacao(SENT): D6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:19-1234;1488386119897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:19-1234;[u'1234;1488386109897;10000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:19-1234;D6-hard;
+1/3/2017-12:35:19-1234;Recomendacao(SENT): D6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:21-1234;1488386121897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:21-1234;[u'1234;1488386109897;12000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:21-1234;D6-hard;
+1/3/2017-12:35:21-1234;Recomendacao(SENT): D6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:23-1234;1488386123897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:23-1234;[u'1234;1488386109897;14000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:23-1234;D6-hard;
+1/3/2017-12:35:23-1234;Recomendacao(SENT): D6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:25-1234;1488386125897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:25-1234;[u'1234;1488386109897;16000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:25-1234;D6-hard;C6-hard;
+1/3/2017-12:35:25-1234;Recomendacao(SENT): D6-hard;C6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:27-1234;1488386127897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:27-1234;[u'1234;1488386109897;18000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:27-1234;D6-hard;C6-hard;
+1/3/2017-12:35:27-1234;Recomendacao(SENT): D6-hard;C6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:29-1234;1488386129897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:29-1234;[u'1234;1488386109897;20000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:29-1234;D6-hard;C6-hard;
+1/3/2017-12:35:29-1234;Recomendacao(SENT): D6-hard;C6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:31-1234;1488386131897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:31-1234;[u'1234;1488386109897;22000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:31-1234;D6-hard;C6-hard;
+1/3/2017-12:35:31-1234;Recomendacao(SENT): D6-hard;C6-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:33-1234;1488386133897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:33-1234;[u'1234;1488386109897;24000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:33-1234;D6-hard;C6-hard;Q6-easy;
+1/3/2017-12:35:33-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:35-1234;1488386135897;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:35:35-1234;[u'1234;1488386109897;26000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:35:35-1234;D6-hard;C6-hard;Q6-easy;
+1/3/2017-12:35:35-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:36-1234;1488386136769;click;questionario.html#;troca-Q6 btn btn-info btn-lg;button;1268;275
+1/3/2017-12:35:38-1234;1488386138769;;questionario.html#;troca-Q6 btn btn-info btn-lg;;;
+1/3/2017-12:35:40-1234;1488386140769;;questionario.html#;troca-Q6 btn btn-info btn-lg;;;
+1/3/2017-12:35:42-1234;1488386142769;;questionario.html#;troca-Q6 btn btn-info btn-lg;;;
+1/3/2017-12:35:44-1234;1488386144769;;questionario.html#;troca-Q6 btn btn-info btn-lg;;;
+1/3/2017-12:35:45-1234;1488386145909;click;questionario.html#;Q:6:E:1-3;p;289;273
+1/3/2017-12:35:45-1234;[u'1234;1488386145909;0;Q:6:E:1-3']
+1/3/2017-12:35:45-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:47-1234;1488386147909;;questionario.html#;Q:6:E:1-3;;;
+1/3/2017-12:35:47-1234;[u'1234;1488386145909;2000;Q:6:E:1-3']
+1/3/2017-12:35:47-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:49-1234;1488386149909;;questionario.html#;Q:6:E:1-3;;;
+1/3/2017-12:35:49-1234;[u'1234;1488386145909;4000;Q:6:E:1-3']
+1/3/2017-12:35:49-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:51-1234;1488386151909;;questionario.html#;Q:6:E:1-3;;;
+1/3/2017-12:35:51-1234;[u'1234;1488386145909;6000;Q:6:E:1-3']
+1/3/2017-12:35:51-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:53-1234;1488386153909;;questionario.html#;Q:6:E:1-3;;;
+1/3/2017-12:35:53-1234;[u'1234;1488386145909;8000;Q:6:E:1-3']
+1/3/2017-12:35:53-1234;D6-hard;C6-hard;Q6-easy;
+1/3/2017-12:35:53-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:55-1234;1488386155909;;questionario.html#;Q:6:E:1-3;;;
+1/3/2017-12:35:55-1234;[u'1234;1488386145909;10000;Q:6:E:1-3']
+1/3/2017-12:35:55-1234;D6-hard;C6-hard;Q6-easy;
+1/3/2017-12:35:55-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:57-1234;1488386157643;click;questionario.html#;Q:3:H:1-3 list-group-item;a;128;240
+1/3/2017-12:35:57-1234;[u'1234;1488386157643;0;Q:3:H:1-3 list-group-item']
+1/3/2017-12:35:57-1234;Recomendacao(SENT): Q3-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:35:58-1234;1488386158586;click;questionario.html#;Q:2:H:1-4 list-group-item;a;132;226
+1/3/2017-12:35:58-1234;[u'1234;1488386158586;0;Q:2:H:1-4 list-group-item']
+1/3/2017-12:35:58-1234;Recomendacao(SENT): Q2-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:0-1234;1488386160073;click;questionario.html#;Q:6:H:1-3 list-group-item;a;112;367
+1/3/2017-12:36:0-1234;[u'1234;1488386160073;0;Q:6:H:1-3 list-group-item']
+1/3/2017-12:36:0-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:2-1234;1488386162073;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:36:2-1234;[u'1234;1488386160073;2000;Q:6:H:1-3 list-group-item']
+1/3/2017-12:36:2-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:3-1234;1488386163155;click;questionario.html#;Q:7:H: list-group-item;a;118;395
+1/3/2017-12:36:3-1234;[u'1234;1488386163155;0;Q:7:H: list-group-item']
+1/3/2017-12:36:3-1234;Recomendacao(SENT): Q7-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:3-1234;1488386163671;click;questionario.html#;Q:8:H:1-3 list-group-item;a;109;439
+1/3/2017-12:36:3-1234;[u'1234;1488386163671;0;Q:8:H:1-3 list-group-item']
+1/3/2017-12:36:3-1234;Recomendacao(SENT): Q8-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:4-1234;1488386164364;click;questionario.html#;Q:9:H:1-1 list-group-item;a;84;501
+1/3/2017-12:36:4-1234;[u'1234;1488386164364;0;Q:9:H:1-1 list-group-item']
+1/3/2017-12:36:4-1234;Recomendacao(SENT): Q9-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:6-1234;1488386166365;;questionario.html#;Q:9:H:1-1 list-group-item;;;
+1/3/2017-12:36:6-1234;[u'1234;1488386164364;2001;Q:9:H:1-1 list-group-item']
+1/3/2017-12:36:6-1234;Recomendacao(SENT): Q9-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:6-1234;1488386166512;click;questionario.html#;Q:10:H:1-1 list-group-item;a;114;367
+1/3/2017-12:36:6-1234;[u'1234;1488386166512;0;Q:10:H:1-1 list-group-item']
+1/3/2017-12:36:6-1234;Recomendacao(SENT): Q10-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:7-1234;1488386167906;click;questionario.html#;Q:5:H:1-1 list-group-item;a;73;345
+1/3/2017-12:36:7-1234;[u'1234;1488386167906;0;Q:5:H:1-1 list-group-item']
+1/3/2017-12:36:7-1234;Recomendacao(SENT): Q5-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:8-1234;1488386168315;click;questionario.html#;Q:6:H:1-3 list-group-item;a;70;389
+1/3/2017-12:36:8-1234;[u'1234;1488386168315;0;Q:6:H:1-3 list-group-item']
+1/3/2017-12:36:8-1234;Recomendacao(SENT): D6-hard;C6-hard;Q6-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:8-1234;1488386168696;click;questionario.html#;Q:7:H: list-group-item;a;70;421
+1/3/2017-12:36:8-1234;[u'1234;1488386168696;0;Q:7:H: list-group-item']
+1/3/2017-12:36:8-1234;Recomendacao(SENT): Q7-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:9-1234;1488386169227;click;questionario.html#;Q:8:H:1-3 list-group-item;a;64;464
+1/3/2017-12:36:9-1234;[u'1234;1488386169227;0;Q:8:H:1-3 list-group-item']
+1/3/2017-12:36:9-1234;Recomendacao(SENT): Q8-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:9-1234;1488386169748;click;questionario.html#;Q:9:H:1-1 list-group-item;a;60;488
+1/3/2017-12:36:9-1234;[u'1234;1488386169748;0;Q:9:H:1-1 list-group-item']
+1/3/2017-12:36:9-1234;Recomendacao(SENT): Q9-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:10-1234;1488386170890;click;questionario.html#;Q:10:H:1-1 list-group-item;a;100;390
+1/3/2017-12:36:10-1234;[u'1234;1488386170890;0;Q:10:H:1-1 list-group-item']
+1/3/2017-12:36:10-1234;Recomendacao(SENT): Q10-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:12-1234;1488386172890;;questionario.html#;Q:10:H:1-1 list-group-item;;;
+1/3/2017-12:36:12-1234;[u'1234;1488386170890;2000;Q:10:H:1-1 list-group-item']
+1/3/2017-12:36:12-1234;Recomendacao(SENT): Q10-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:36:14-1234;1488386174890;;questionario.html#;Q:10:H:1-1 list-group-item;;;
+1/3/2017-12:36:14-1234;[u'1234;1488386170890;4000;Q:10:H:1-1 list-group-item']
+1/3/2017-12:36:14-1234;Recomendacao(SENT): Q10-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:6-1234;1488386346890;;questionario.html#;Q:10:H:1-1 list-group-item;;;
+1/3/2017-12:39:6-1234;[u'1234;1488386346890;0;Q:10:H:1-1 list-group-item']
+1/3/2017-12:39:6-1234;Recomendacao(SENT): Q10-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:8-1234;1488386348890;;questionario.html#;Q:10:H:1-1 list-group-item;;;
+1/3/2017-12:39:8-1234;[u'1234;1488386346890;2000;Q:10:H:1-1 list-group-item']
+1/3/2017-12:39:8-1234;Recomendacao(SENT): Q10-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:10-1234;1488386350579;click;questionario.html#;Q:6:H:1-3 list-group-item;a;129;368
+1/3/2017-12:39:10-1234;[u'1234;1488386350579;0;Q:6:H:1-3 list-group-item']
+1/3/2017-12:39:10-1234;Recomendacao(SENT): Q6-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:12-1234;1488386352580;;questionario.html#;Q:6:H:1-3 list-group-item;;;
+1/3/2017-12:39:12-1234;[u'1234;1488386350579;2001;Q:6:H:1-3 list-group-item']
+1/3/2017-12:39:12-1234;Recomendacao(SENT): Q6-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:13-1234;1488386353514;click;questionario.html#;Q:7:H: list-group-item;a;126;397
+1/3/2017-12:39:13-1234;[u'1234;1488386353514;0;Q:7:H: list-group-item']
+1/3/2017-12:39:13-1234;Recomendacao(SENT): Q7-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:15-1234;1488386355514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:15-1234;[u'1234;1488386353514;2000;Q:7:H: list-group-item']
+1/3/2017-12:39:15-1234;Recomendacao(SENT): Q7-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:17-1234;1488386357514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:17-1234;[u'1234;1488386353514;4000;Q:7:H: list-group-item']
+1/3/2017-12:39:17-1234;Recomendacao(SENT): Q7-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:19-1234;1488386359514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:19-1234;[u'1234;1488386353514;6000;Q:7:H: list-group-item']
+1/3/2017-12:39:19-1234;Recomendacao(SENT): Q7-hard;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:21-1234;1488386361514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:21-1234;[u'1234;1488386353514;8000;Q:7:H: list-group-item']
+1/3/2017-12:39:21-1234;D7-hard;
+1/3/2017-12:39:21-1234;Recomendacao(SENT): D7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:23-1234;1488386363514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:23-1234;[u'1234;1488386353514;10000;Q:7:H: list-group-item']
+1/3/2017-12:39:23-1234;D7-hard;
+1/3/2017-12:39:23-1234;Recomendacao(SENT): D7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:25-1234;1488386365514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:25-1234;[u'1234;1488386353514;12000;Q:7:H: list-group-item']
+1/3/2017-12:39:25-1234;D7-hard;
+1/3/2017-12:39:25-1234;Recomendacao(SENT): D7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:27-1234;1488386367514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:27-1234;[u'1234;1488386353514;14000;Q:7:H: list-group-item']
+1/3/2017-12:39:27-1234;D7-hard;
+1/3/2017-12:39:27-1234;Recomendacao(SENT): D7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:29-1234;1488386369514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:29-1234;[u'1234;1488386353514;16000;Q:7:H: list-group-item']
+1/3/2017-12:39:29-1234;D7-hard;C7-hard;
+1/3/2017-12:39:29-1234;Recomendacao(SENT): D7-hard;C7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:31-1234;1488386371514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:31-1234;[u'1234;1488386353514;18000;Q:7:H: list-group-item']
+1/3/2017-12:39:31-1234;D7-hard;C7-hard;
+1/3/2017-12:39:31-1234;Recomendacao(SENT): D7-hard;C7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:33-1234;1488386373514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:33-1234;[u'1234;1488386353514;20000;Q:7:H: list-group-item']
+1/3/2017-12:39:33-1234;D7-hard;C7-hard;
+1/3/2017-12:39:33-1234;Recomendacao(SENT): D7-hard;C7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:35-1234;1488386375514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:35-1234;[u'1234;1488386353514;22000;Q:7:H: list-group-item']
+1/3/2017-12:39:35-1234;D7-hard;C7-hard;
+1/3/2017-12:39:35-1234;Recomendacao(SENT): D7-hard;C7-hard;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:37-1234;1488386377514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:37-1234;[u'1234;1488386353514;24000;Q:7:H: list-group-item']
+1/3/2017-12:39:37-1234;D7-hard;C7-hard;Q7-easy;
+1/3/2017-12:39:37-1234;Recomendacao(SENT): D7-hard;C7-hard;Q7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:39-1234;1488386379514;;questionario.html#;Q:7:H: list-group-item;;;
+1/3/2017-12:39:39-1234;[u'1234;1488386353514;26000;Q:7:H: list-group-item']
+1/3/2017-12:39:39-1234;D7-hard;C7-hard;Q7-easy;
+1/3/2017-12:39:39-1234;Recomendacao(SENT): D7-hard;C7-hard;Q7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard,Q4-hard,Q5-hard,Q6-hard,Q7-hard,Q8-hard,Q9-hard,Q10-hard
+1/3/2017-12:39:40-1234;1488386380386;click;questionario.html#;troca-Q7 btn btn-info btn-lg;button;841;357
+1/3/2017-12:39:42-1234;1488386382387;;questionario.html#;troca-Q7 btn btn-info btn-lg;;;
+1/3/2017-12:39:42-1234;Broken1
+1/3/2017-12:39:44-1234;1488386384387;;questionario.html#;troca-Q7 btn btn-info btn-lg;;;
+1/3/2017-12:39:44-1234;Broken1
+1/3/2017-12:39:46-1234;1488386386387;;questionario.html#;troca-Q7 btn btn-info btn-lg;;;
+1/3/2017-12:39:46-1234;Broken1
+1/3/2017-12:39:48-1234;1488386388387;;questionario.html#;troca-Q7 btn btn-info btn-lg;;;
+1/3/2017-12:39:48-1234;Broken1
+1/3/2017-12:39:49-1234;1488386389263;click;questionario.html#;Q:7:E:1-1;p;228;169
+1/3/2017-12:39:49-1234;[u'1234;1488386389263;0;Q:7:E:1-1']
+1/3/2017-12:39:49-1234;Recomendacao(SENT): Q7-easy;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:39:51-1234;1488386391264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:39:51-1234;[u'1234;1488386389263;2001;Q:7:E:1-1']
+1/3/2017-12:39:51-1234;Recomendacao(SENT): Q7-easy;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:39:53-1234;1488386393264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:39:53-1234;[u'1234;1488386389263;4001;Q:7:E:1-1']
+1/3/2017-12:39:53-1234;Recomendacao(SENT): Q7-easy;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:39:55-1234;1488386395264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:39:55-1234;[u'1234;1488386389263;6001;Q:7:E:1-1']
+1/3/2017-12:39:55-1234;Recomendacao(SENT): Q7-easy;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:39:57-1234;1488386397264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:39:57-1234;[u'1234;1488386389263;8001;Q:7:E:1-1']
+1/3/2017-12:39:57-1234;D7-easy;
+1/3/2017-12:39:57-1234;Recomendacao(SENT): D7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:39:59-1234;1488386399264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:39:59-1234;[u'1234;1488386389263;10001;Q:7:E:1-1']
+1/3/2017-12:39:59-1234;D7-easy;
+1/3/2017-12:39:59-1234;Recomendacao(SENT): D7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:40:1-1234;1488386401264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:40:1-1234;[u'1234;1488386389263;12001;Q:7:E:1-1']
+1/3/2017-12:40:1-1234;D7-easy;
+1/3/2017-12:40:1-1234;Recomendacao(SENT): D7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:40:3-1234;1488386403264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:40:3-1234;[u'1234;1488386389263;14001;Q:7:E:1-1']
+1/3/2017-12:40:3-1234;D7-easy;
+1/3/2017-12:40:3-1234;Recomendacao(SENT): D7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:40:5-1234;1488386405264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:40:5-1234;[u'1234;1488386389263;16001;Q:7:E:1-1']
+1/3/2017-12:40:5-1234;D7-easy;C7-easy;
+1/3/2017-12:40:5-1234;Recomendacao(SENT): D7-easy;C7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:40:7-1234;1488386407264;;questionario.html#;Q:7:E:1-1;;;
+1/3/2017-12:40:7-1234;[u'1234;1488386389263;18001;Q:7:E:1-1']
+1/3/2017-12:40:7-1234;D7-easy;C7-easy;
+1/3/2017-12:40:7-1234;Recomendacao(SENT): D7-easy;C7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:40:8-1234;1488386408927;click;questionario.html#;D:7:E:1-1 btn btn-info btn-lg;button;272;343
+1/3/2017-12:40:10-1234;1488386410250;click;questionario.html#;Q:7:E:1-1 btn btn-info btn-lg;div;379;234
+1/3/2017-12:40:10-1234;[u'1234;1488386410250;0;Q:7:E:1-1 btn btn-info btn-lg']
+1/3/2017-12:40:10-1234;Recomendacao(SENT): D7-easy;C7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
+1/3/2017-12:40:12-1234;1488386412250;;questionario.html#;Q:7:E:1-1 btn btn-info btn-lg;;;
+1/3/2017-12:40:12-1234;[u'1234;1488386410250;2000;Q:7:E:1-1 btn btn-info btn-lg']
+1/3/2017-12:40:12-1234;Recomendacao(SENT): D7-easy;C7-easy;;Questions (SENT): Q1-hard,Q2-hard,Q3-hard
