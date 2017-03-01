@@ -1,4 +1,4 @@
-
+ 
 def LoadSummarizerByUser(user, timestamp, event, idView, sumarioL):
 	#Percorre o sumario atras do usuario
 	exemplo = sumarioL
@@ -44,6 +44,26 @@ def LoadSummarizerByUser(user, timestamp, event, idView, sumarioL):
 		exemplo.append(Data)
 	return exemplo	
 
+def ClearSummarizerByUser(idUser, event, timestamp, idView, sumarioL):
+	print "na funcao"
+	if sumarioL == []:
+		aux_str = idUser + ";" + timestamp + ";" + 0 + ";" + idView
+		sumarioL.append(aux_str)
+		return sumarioL
+
+	if event == "click":
+		listAux = list()
+		for i in sumarioL:
+			aux = i.split(";")
+			if aux[0] == idUser:
+				aux_str = aux[0] + ";" + timestamp + ";" + 0 + ";" + idView
+				listAux.append(aux_str)
+			else:
+				listAux.append(i)
+		return listAux
+	return sumarioL
+
+
 def LoadQuestionTime (user, timeQuestions, idQuestion, timestamp):
 	
 	flagUserExists = False
@@ -74,6 +94,7 @@ def LoadQuestionTime (user, timeQuestions, idQuestion, timestamp):
 		#print ""					
 		#print feedback
 		return timeQuestions
+
 #print LoadSummarizerByUser("0001", "2000", "null", "conteudo", [])
 #print LoadSummarizerByUser("0002", "9000", "null", "conteudo", ['0001;2000;0;conteudo'])
 #print LoadSummarizerByUser("0001", "10000", "null", "conteudo", ['0001;2000;0;conteudo', '0002;9000;0;conteudo'])
