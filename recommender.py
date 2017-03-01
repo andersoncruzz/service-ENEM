@@ -156,7 +156,11 @@ def changeBtnQuestionEasy(user, recommender, idQuestion, timestamp):
 				questions =  userActives[0][2]
 				questions = questions.split(",")
 				questions[idQuestion-1] = "Q"+ str(idQuestion) + "-easy"
-				questions = questions[0] + "," + questions[1] + "," + questions[2]
+				aux = ""
+				for i in questions:
+				#questions = questions[0] + "," + questions[1] + "," + questions[2]
+					aux = aux+ "," + i
+				questions = aux[1:]
 				userActives[0][2] = questions
 				userActives[idQuestion][3][0] = "Q"+ str(idQuestion) + "-easy"
 				#userActives[idQuestion][3][0] = "ok"
