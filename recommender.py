@@ -87,7 +87,7 @@ def recommender (user, recommender, idQuestion, timestamp):
 					if userActives[idQuestion][1][0] == True:
 						#recommendation = "ok"
 						print "Esta Questao ja utilizou todas as adaptacoes"				
-					elif timestamp - userActives[0][1] > 7000: 
+					elif timestamp - userActives[0][1] > 0: 
 						userActives[0][1] = timestamp		
 						if userActives[idQuestion][0][0] == False:
 							if userActives[idQuestion][0][1] == False:
@@ -231,7 +231,7 @@ def answerBtnQuestionEasy(user, recommender, idQuestion, timestamp):
 				#print "AQUI4"
 				#Zerando as adaptacoes para QDificil depois de ter passado pela facil
 				userActives[idQuestion][0][0] = False
-				userActives[idQuestion][0][1] = False
+				userActives[idQuestion][0][1] = True
 				userActives[idQuestion][0][2] = False
 				#Flag de voltar a QDificil depois de ter passado pela QFacil
 				userActives[idQuestion][4][0] = "1"
