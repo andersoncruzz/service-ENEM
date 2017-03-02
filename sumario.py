@@ -45,22 +45,29 @@ def LoadSummarizerByUser(user, timestamp, event, idView, sumarioL):
 	return exemplo	
 
 def ClearSummarizerByUser(idUser, event, timestamp, idView, sumarioL):
-	print "na funcao"
+	#print "na funcao"
+	sumario = list()
 	if sumarioL == []:
-		aux_str = idUser + ";" + timestamp + ";" + 0 + ";" + idView
-		sumarioL.append(aux_str)
-		return sumarioL
+		#print "aquiVAZIO"
+		#print "aqui" + idUser + ";" + timestamp + ";" + str(0) + ";" + idView
+		aux_str = idUser + ";" + timestamp + ";" + str(0) + ";" + idView
+		#print "aqui2"
+		sumario.append(aux_str)
+		#print "aqui3"
+		return sumario
 
 	if event == "click":
+		#print "aquiCLICK"
 		listAux = list()
 		for i in sumarioL:
 			aux = i.split(";")
 			if aux[0] == idUser:
-				aux_str = aux[0] + ";" + timestamp + ";" + 0 + ";" + idView
+				aux_str = aux[0] + ";" + timestamp + ";" + str(0) + ";" + idView
 				listAux.append(aux_str)
 			else:
 				listAux.append(i)
 		return listAux
+	#print "aquiFINAL"
 	return sumarioL
 
 

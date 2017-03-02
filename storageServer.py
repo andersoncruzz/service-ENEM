@@ -8,7 +8,7 @@ from sumario import LoadQuestionTime
 from sumario import ClearSummarizerByUser
 from analytics import analytics
 from cut import cut
-from recommender import recommender, lastRecommendation, changeBtnQuestionEasy
+from recommender import recommender, lastRecommendation, changeBtnQuestionEasy, answerBtnQuestionEasy
 import os
 import thread
 import time
@@ -18,8 +18,11 @@ from banco import newTeacher, searchTeacher
 from werkzeug import secure_filename
 from datetime import *
 
-sumario = list()
+#sumario = list()
 #sumarioL = list()
+sumario_file = open("sumario.csv",'w')
+sumario_file.close()
+
 recomendation = list()
 timeQuestions = list()
 idQ = list()
@@ -96,8 +99,26 @@ def searchAdaptation(user, timestamp, event, idView):
 	#	pass
 	#mutex = 1#setSemaforo(session)
 	#atualiza o sumario
-	global sumario
-	sumario = LoadSummarizerByUser(user, timestamp, event, idView, sumario)
+	#global sumario
+
+	##aqui arquivo
+	sumarioFile = open("sumario.csv","r")
+	dataSumario = sumarioFile.readlines()
+	sumarioAux = list()
+	for i in dataSumario:
+		sumarioAux.append(i[0:-1])
+	sumarioFile.close()
+
+	sumario = LoadSummarizerByUser(user, timestamp, event, idView, sumarioAux)
+	
+	sumarioAux = open("sumario.csv", "w")
+	sumarioAux.close
+
+	sumarioAux = open("sumario.csv", "a+")
+	for i in sumario: 
+		sumarioAux.write(i+"\n")
+	sumarioAux.close
+
 	#sumarioL = sumario
 	recomendationUser = analytics(user, sumario, idView)
 	print "sumario"
@@ -283,8 +304,16 @@ def receive_data(idSession):
 					changeBtnQuestionEasy(idUser, recomendation, int(aux[i+1:]), int(timestamp))
 					#print "AQUI BTN"
 				#print "aquiii"
-				#print sumario	
-				
+				#print sumario
+
+				if idView != "" and (idView == "R:1:E:1-4 btn btn-info btn-lg" or idView == "R:2:E:1-4 btn btn-info btn-lg" or idView == "R:3:E:1-3 btn btn-info btn-lg" or idView == "R:4:E:1-2 btn btn-info btn-lg" or idView == "R:5:E:1-1 btn btn-info btn-lg" or idView == "R:6:E:1-3 btn btn-info btn-lg" or idView == "R:7:E:1-1 btn btn-info btn-lg" or idView == "R:8:E:1-3 btn btn-info btn-lg" or idView == "R:9:E:1-1 btn btn-info btn-lg" or idView == "R:10:E:1-1 btn btn-info btn-lg"):
+					#btnTroca[0] = "1"
+					print "IDVIEW: " + idView
+					auxIdView = idView.split(":")
+					aux = auxIdView[1]
+					print "aux: " + aux
+					answerBtnQuestionEasy(idUser, recomendation, int(aux), int(timestamp))
+
 				if idView != "" and idView[0] == "Q":
 					idViewSplit = idView.split(":")
 					#print idViewSplit
@@ -311,13 +340,33 @@ def receive_data(idSession):
 						return jsonify({'recommendation': recommendation})
 				else:
 					#idUser, event, timestamp, idView, sumarioL
-					print "aqui2"
+					#print "aqui2"
 					#global sumario
-					print "aqui"
-					#print ""+idUser +"/"+ timestamp +"/"+ event +"/"+ idView +"/"
-					#sumario = ClearSummarizerByUser(idUser, timestamp, event, idView, sumario)
-					print "\nSUMARIO NOVO CODIGO"
+					#print "aqui"
+					print ""+idUser +"/"+ timestamp +"/"+ event +"/"+ idView +"/"
+					sumarioFile = open("sumario.csv","r")
+					dataSumario = sumarioFile.readlines()
+					sumarioAux = list()
+					for i in dataSumario:
+						sumarioAux.append(i[0:-1])
+					sumarioFile.close()
+					
+					print "\nSUMARIO ANTES DE ZERAR CONTADOR"
+					print sumarioAux
+
+					sumario = ClearSummarizerByUser(idUser, event, timestamp, idView, sumarioAux)
+
+					print "\nSUMARIO ZERANDO CONTADOR"
 					print sumario
+
+					sumarioAux = open("sumario.csv", "w")
+					sumarioAux.close
+
+					sumarioAux = open("sumario.csv", "a+")
+					for i in sumario: 
+						sumarioAux.write(i+"\n")
+					sumarioAux.close
+
 					recommendation = [{"recommendation": "ok"}, {"questions": "nada"}]
 					return jsonify({'recommendation': recommendation})
 			except:

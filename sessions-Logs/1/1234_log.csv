@@ -326,4 +326,548 @@
 1;1234;1488406324942;click;questionario.html#;Q:3:H:1-3:B;input;229;422
 1;1234;1488406326004;click;questionario.html#;Q:4:H:1-3 list-group-item;a;46;285
 1;1234;1488406326516;click;questionario.html#;Q:3:H:1-3 list-group-item;a;68;252
-1;1234;1488406392516;;questionario.html#;Q:3:H:1-3 list-group-item;;;
+1;1234;1488410349725;click;index.html;item;a;123;630
+1;1234;1488410357045;click;questionario.html;Q:10:H:1-1 list-group-item;a;100;540
+1;1234;1488410368607;click;questionario.html#;Q:9:H:1-1 list-group-item;a;122;498
+1;1234;1488410370092;click;questionario.html#;Q:10:H:1-1 list-group-item;a;110;533
+1;1234;1488410377430;click;questionario.html#;Q:10:H:1-1 list-group-item;a;99;434
+1;1234;1488410383759;click;questionario.html#;Q:1:H:1-4 list-group-item;a;77;175
+1;1234;1488410388749;click;questionario.html#;Q:10:H:1-1 list-group-item;a;65;325
+1;1234;1488410408143;click;questionario.html#;troca-Q10 btn btn-info btn-lg;button;845;477
+1;1234;1488410625510;click;questionario.html#;Q:10:E:1-1 list-group-item;a;69;536
+1;1234;1488410665541;click;questionario.html#;troca-Q1 btn btn-info btn-lg;button;868;171
+1;1234;1488410667379;click;questionario.html#;Q:10:H:1-1 list-group-item;a;66;323
+1;1234;1488410669040;click;questionario.html#;Q:10:H:1-1 list-group-item;a;62;386
+1;1234;1488410671193;click;questionario.html#;Q:10:H:1-1 list-group-item;a;105;276
+1;1234;1488410672660;click;questionario.html#;Q:1:E:1-4 list-group-item;a;94;165
+1;1234;1488410676730;click;questionario.html#;Q:10:H:1-1 list-group-item;a;76;334
+1;1234;1488410679217;click;questionario.html#;Q:1:E:1-4 list-group-item;a;117;169
+1;1234;1488410694912;click;questionario.html#;Q:10:H:1-1 list-group-item;a;52;536
+1;1234;1488410722456;click;questionario.html#;troca-Q10 btn btn-info btn-lg;button;874;481
+1;1234;1488410734707;click;questionario.html#;Q:9:H:1-1 list-group-item;a;30;436
+1;1234;1488410761184;click;questionario.html#;troca-Q9 btn btn-info btn-lg;button;1246;364
+1;1234;1488410762935;click;questionario.html#;Q:10:H:1-1 list-group-item;a;93;272
+1;1234;1488410770526;click;questionario.html#;Q:10:H:1-1 list-group-item;a;108;328
+1;1234;1488410798657;click;questionario.html#;troca-Q10 btn btn-info btn-lg;button;891;470
+1;1234;1488410800144;click;questionario.html#;Q:9:H:1-1 list-group-item;a;53;218
+1;1234;1488410800666;click;questionario.html#;Q:2:H:1-4 list-group-item;a;58;215
+1;1234;1488410802294;click;questionario.html#;Q:9:H:1-1 list-group-item;a;85;427
+1;1234;1488410803520;click;questionario.html#;Q:7:H:1-1 list-group-item;a;80;423
+1;1234;1488410804679;click;questionario.html#;Q:10:E:1-1 list-group-item;a;71;474
+1;1234;1488411811927;click;questionario.html#;Q:10:E:1-1:C;input;224;246
+1;1234;1488411813730;click;questionario.html#;Q:9:H:1-1 list-group-item;a;101;490
+1;1234;1488411814870;click;questionario.html#;Q:10:E:1-1 list-group-item;a;103;424
+1;1234;1488411821283;click;questionario.html#;Q:1:H:1-4 list-group-item;a;54;154
+1;1234;1488412267640;click;questionario.html#;container;div;214;284
+1;1234;1488412269966;click;questionario.html#;Q:1:H:1-4:B;input;224;285
+1;1234;1488412574365;click;questionario.html#;Q:1:H:1-4:C;input;220;314
+1;1234;1488412576773;click;questionario.html#;Q:2:H:1-4 list-group-item;a;125;146
+1;1234;1488412577597;click;questionario.html#;Q:1:H:1-4 list-group-item;a;110;161
+1;1234;1488412580138;click;questionario.html#;Q:2:H:1-4 list-group-item;a;66;205
+1;1234;1488412582209;click;questionario.html#;Q:2:H:1-4:D;input;225;215
+1;1234;1488412584029;click;questionario.html#;Q:3:H:1-3 list-group-item;a;84;230
+1;1234;1488412584572;click;questionario.html#;Q:2:H:1-4 list-group-item;a;107;200
+1;1234;1488412586192;click;questionario.html#;Q:9:H:1-1 list-group-item;a;116;191
+1;1234;1488412587541;click;questionario.html#;Q:9:H:1-1:E;input;219;193
+1;1234;1488412588510;click;questionario.html#;Q:8:H:1-3 list-group-item;a;111;254
+1;1234;1488412590043;click;questionario.html#;Q:9:H:1-1 list-group-item;a;98;183
+1;1234;1488412591739;click;questionario.html#;Q:10:E:1-1 list-group-item;a;74;226
+1;1234;1488412592797;click;questionario.html#;Q:10:E:1-1:B;input;218;226
+1;1234;1488412594231;click;questionario.html#;Q:7:H:1-1 list-group-item;a;92;242
+1;1234;1488412595647;click;questionario.html#;Q:10:E:1-1 list-group-item;a;135;167
+1;1234;1488412597832;click;questionario.html#;Q:8:H:1-3 list-group-item;a;75;298
+1;1234;1488412600433;click;questionario.html#;Q:8:H:1-3 list-group-item;a;83;306
+1;1234;1488412602503;click;questionario.html#;Q:1:H:1-4 list-group-item;a;126;178
+1;1234;1488412611259;click;questionario.html#;Q:10:E:1-1 list-group-item;a;68;337
+1;1234;1488412613708;click;questionario.html#;Q:10:E:1-1:E;input;219;303
+1;1234;1488412616377;click;questionario.html#;Q:10:E:1-1:D;input;225;278
+1;1234;1488412619177;click;questionario.html#;Q:9:H:1-1 list-group-item;a;104;230
+1;1234;1488412621853;click;questionario.html#;Q:10:E:1-1 list-group-item;a;98;324
+1;1234;1488412625422;click;questionario.html#;Q:8:H:1-3 list-group-item;a;106;294
+1;1234;1488412627390;click;questionario.html#;Q:9:H:1-1 list-group-item;a;73;300
+1;1234;1488412629886;click;questionario.html#;Q:2:H:1-4 list-group-item;a;48;211
+1;1234;1488412631986;click;questionario.html#;Q:7:H:1-1 list-group-item;a;104;243
+1;1234;1488412633395;click;questionario.html#;Q:7:H:1-1:A;input;216;215
+1;1234;1488412636447;click;questionario.html#;Q:8:H:1-3 list-group-item;a;77;294
+1;1234;1488412639112;click;questionario.html#;Q:7:H:1-1 list-group-item;a;145;194
+1;1234;1488412641303;click;questionario.html#;Q:10:E:1-1 list-group-item;a;129;224
+1;1234;1488412644490;click;questionario.html#;;label;221;193
+1;1234;1488412644510;click;questionario.html#;Q:10:E:1-1:A;input;221;193
+1;1234;1488412659873;click;questionario.html#;Q:9:H:1-1 list-group-item;a;116;285
+1;1234;1488412662373;click;questionario.html#;Q:10:E:1-1 list-group-item;a;86;330
+1;1234;1488412705006;click;questionario.html#;Q:10:E:1-1 list-group-item;a;83;289
+1;1234;1488412706069;click;questionario.html#;Q:4:H:1-3 list-group-item;a;83;289
+1;1234;1488412707483;click;questionario.html#;Q:4:H:1-3 list-group-item;a;83;289
+1;1234;1488412710094;click;questionario.html#;Q:4:H:1-3 list-group-item;a;83;289
+1;1234;1488412713436;click;questionario.html#;Q:10:E:1-1 list-group-item;a;82;331
+1;1234;1488412733214;click;questionario.html#;Q:10:E:1-1:B;input;216;223
+1;1234;1488412834536;click;questionario.html#;Q:10:E:1-1:A;input;222;198
+1;1234;1488412838238;click;questionario.html#;;label;229;221
+1;1234;1488412838250;click;questionario.html#;Q:10:E:1-1:B;input;229;221
+1;1234;1488412840849;click;questionario.html#;Q:10:E:1-1:C;input;222;247
+1;1234;1488412842105;click;questionario.html#;Q:10:E:1-1:C;input;222;247
+1;1234;1488412842335;click;questionario.html#;Q:10:E:1-1:C;input;222;247
+1;1234;1488412844679;click;questionario.html#;Q:10:E:1-1:C;input;222;247
+1;1234;1488412860818;click;questionario.html#;Q:1:H:1-4:A;input;222;151
+1;1234;1488412862618;click;questionario.html#;Q:1:H:1-4:A;input;222;151
+1;1234;1488412864809;click;questionario.html#;Q:1:H:1-4:A;input;222;151
+1;1234;1488412865597;click;questionario.html#;Q:1:H:1-4:A;input;222;151
+1;1234;1488412868187;click;questionario.html#;Q:1:H:1-4:A;input;222;151
+1;1234;1488412914851;click;questionario.html#;Q:1:H:1-4:D;input;220;226
+1;1234;1488412915542;click;questionario.html#;Q:1:H:1-4:D;input;220;226
+1;1234;1488412934705;click;questionario.html#;Q:1:H:1-4:E;input;224;255
+1;1234;1488412941156;click;questionario.html#;Q:10:E:1-1 list-group-item;a;122;276
+1;1234;1488412943021;click;questionario.html#;Q:10:E:1-1:E;input;220;300
+1;1234;1488412950372;click;questionario.html#;Q:10:E:1-1:A;input;221;197
+1;1234;1488412953404;click;questionario.html#;Q:10:E:1-1:B;input;225;224
+1;1234;1488412956892;click;questionario.html#;Q:10:E:1-1:C;input;221;245
+1;1234;1488412961674;click;questionario.html#;Q:10:E:1-1:D;input;219;276
+1;1234;1488412965547;click;questionario.html#;Q:1:H:1-4 list-group-item;a;127;150
+1;1234;1488412969653;click;questionario.html#;Q:1:H:1-4:A;input;218;257
+1;1234;1488412973026;click;questionario.html#;Q:2:H:1-4 list-group-item;a;107;160
+1;1234;1488412974860;click;questionario.html#;Q:2:H:1-4:B;input;220;264
+1;1234;1488412977887;click;questionario.html#;Q:3:H:1-3 list-group-item;a;110;189
+1;1234;1488412980389;click;questionario.html#;Q:3:H:1-3:C;input;224;235
+1;1234;1488412983437;click;questionario.html#;Q:4:H:1-3 list-group-item;a;95;191
+1;1234;1488412985590;click;questionario.html#;Q:4:H:1-3:D;input;216;227
+1;1234;1488412990887;click;questionario.html#;Q:5:H:1-1 list-group-item;a;90;235
+1;1234;1488412993713;click;questionario.html#;Q:5:H:1-1:E;input;224;212
+1;1234;1488413013501;click;questionario.html#;Q:5:H:1-1:E;input;218;269
+1;1234;1488413014504;click;questionario.html#;Q:5:H:1-1:E;input;218;269
+1;1234;1488413021514;click;questionario.html#;Q:6:H:1-3 list-group-item;a;100;308
+1;1234;1488413025593;click;questionario.html#;Q:6:H:1-3:A;input;224;243
+1;1234;1488413029611;click;questionario.html#;Q:7:H:1-1 list-group-item;a;95;353
+1;1234;1488413031450;click;questionario.html#;Q:7:H:1-1:B;input;222;342
+1;1234;1488413035105;click;questionario.html#;Q:8:H:1-3 list-group-item;a;79;299
+1;1234;1488413038025;click;questionario.html#;Q:8:H:1-3:C;input;221;306
+1;1234;1488413042994;click;questionario.html#;Q:9:H:1-1 list-group-item;a;87;336
+1;1234;1488413048980;click;questionario.html#;Q:9:H:1-1:D;input;217;320
+1;1234;1488413056282;click;questionario.html#;Q:10:E:1-1 list-group-item;a;90;276
+1;1234;1488413058642;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413059841;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413060531;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413061177;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413063521;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413067547;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413074005;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413078843;click;questionario.html#;Q:10:E:1-1:E;input;224;304
+1;1234;1488413080362;click;questionario.html#;Q:10:E:1-1:A;input;216;201
+1;1234;1488413088390;click;questionario.html#;Q:10:E:1-1:B;input;219;223
+1;1234;1488413090595;click;questionario.html#;Q:1:H:1-4 list-group-item;a;115;171
+1;1234;1488413092210;click;questionario.html#;Q:10:E:1-1 list-group-item;a;79;334
+1;1234;1488413138305;click;questionario.html#;Q:10:E:1-1:D;input;219;169
+1;1234;1488413143522;click;questionario.html#;Q:9:H:1-1 list-group-item;a;137;279
+1;1234;1488413146164;click;questionario.html#;Q:10:E:1-1 list-group-item;a;129;267
+1;1234;1488413151672;click;questionario.html#;Q:10:E:1-1:A;input;217;194
+1;1234;1488413252458;click;questionario.html#;Q:10:E:1-1:B;input;224;228
+1;1234;1488413320397;click;questionario.html#;Q:10:E:1-1:E;input;215;195
+1;1234;1488413333754;click;questionario.html#;Q:10:E:1-1 list-group-item;a;115;327
+1;1234;1488413354101;click;questionario.html#;Q:10:E:1-1 list-group-item;a;97;372
+1;1234;1488413676005;click;questionario.html#;Q:1:H:1-4 list-group-item;a;95;171
+1;1234;1488413694540;click;questionario.html#;Q:1:H:1-4 list-group-item;a;124;179
+1;1234;1488413696888;click;questionario.html#;Q:2:H:1-4 list-group-item;a;130;211
+1;1234;1488413843947;click;questionario.html#;;label;228;213
+1;1234;1488413843967;click;questionario.html#;Q:2:H:1-4:B;input;228;213
+1;1234;1488413855732;click;questionario.html#;Q:10:E:1-1 list-group-item;a;138;319
+1;1234;1488413861867;click;questionario.html#;Q:1:H:1-4 list-group-item;a;96;161
+1;1234;1488413873494;click;questionario.html#;Q:1:H:1-4:A;input;220;263
+1;1234;1488413880085;click;questionario.html#;Q:1:H:1-4:A;input;222;261
+1;1234;1488413881640;click;questionario.html#;Q:1:H:1-4:A;input;222;261
+1;1234;1488413884255;click;questionario.html#;Q:1:H:1-4 list-group-item;a;111;170
+1;1234;1488413897913;click;questionario.html#;Q:1:H:1-4 list-group-item;a;113;167
+1;1234;1488413921080;click;questionario.html#;Q:1:H:1-4 list-group-item;a;124;176
+1;1234;1488413955286;click;questionario.html#;Q:1:H:1-4 list-group-item;a;94;126
+1;1234;1488413962792;click;questionario.html#;Q:2:H:1-4 list-group-item;a;97;217
+1;1234;1488413964496;click;questionario.html#;Q:3:H:1-3 list-group-item;a;85;194
+1;1234;1488413966409;click;questionario.html#;Q:4:H:1-3 list-group-item;a;65;178
+1;1234;1488413968335;click;questionario.html#;Q:5:H:1-1 list-group-item;a;62;178
+1;1234;1488413970872;click;questionario.html#;Q:6:H:1-3 list-group-item;a;60;256
+1;1234;1488413973023;click;questionario.html#;Q:7:H:1-1 list-group-item;a;79;297
+1;1234;1488413974638;click;questionario.html#;Q:8:H:1-3 list-group-item;a;75;290
+1;1234;1488413976933;click;questionario.html#;Q:9:H:1-1 list-group-item;a;91;295
+1;1234;1488413979223;click;questionario.html#;Q:10:E:1-1 list-group-item;a;82;272
+1;1234;1488414040027;click;questionario.html#;Q:10:E:1-1:D;input;220;276
+1;1234;1488414044219;click;questionario.html#;Q:7:H:1-1 list-group-item;a;96;305
+1;1234;1488414046905;click;questionario.html#;Q:10:E:1-1 list-group-item;a;107;122
+1;1234;1488414053852;click;questionario.html#;Q:1:H:1-4 list-group-item;a;51;172
+1;1234;1488414055896;click;questionario.html#;Q:10:E:1-1 list-group-item;a;62;220
+1;1234;1488414059207;click;questionario.html#;Q:10:E:1-1:B;input;216;171
+1;1234;1488414061134;click;questionario.html#;Q:8:H:1-3 list-group-item;a;114;258
+1;1234;1488414062853;click;questionario.html#;Q:10:E:1-1 list-group-item;a;114;266
+1;1234;1488414341877;click;questionario.html#;Q:4:H:1-3 list-group-item;a;62;300
+1;1234;1488414361751;click;index.html;assessment;li;223;310
+1;1234;1488414364046;click;index.html;item;a;167;293
+1;1234;1488414367373;click;questionario.html;Q:10:E:1-1 list-group-item;a;96;216
+1;1234;1488414368867;click;questionario.html#;Q:2:H:1-4 list-group-item;a;79;203
+1;1234;1488414693424;click;questionario.html#;Q:4:H:1-3 list-group-item;a;102;141
+1;1234;1488414742350;click;questionario.html#;troca-Q4 btn btn-info btn-lg;button;853;277
+1;1234;1488414743906;click;questionario.html#;Q:4:E:1-2:D;input;220;170
+1;1234;1488414745212;click;questionario.html#;Q:5:H:1-1 list-group-item;a;113;230
+1;1234;1488414746181;click;questionario.html#;Q:4:E:1-3 list-group-item;a;74;296
+1;1234;1488415221838;click;questionario.html#;Q:7:H:1-1 list-group-item;a;82;245
+1;1234;1488415225891;click;questionario.html#;Q:7:H:1-1:C;input;220;212
+1;1234;1488415228765;click;questionario.html#;Q:6:H:1-3 list-group-item;a;122;219
+1;1234;1488415230534;click;questionario.html#;Q:7:H:1-1 list-group-item;a;114;163
+1;1234;1488415256038;click;questionario.html#;troca-Q7 btn btn-info btn-lg;button;930;213
+1;1234;1488415259483;click;questionario.html#;Q:7:E:1-3:A;input;222;198
+1;1234;1488415260886;click;questionario.html#;Q:4:E:1-3 list-group-item;a;74;305
+1;1234;1488415261997;click;questionario.html#;Q:7:E:1-1 list-group-item;a;74;305
+1;1234;1488415270884;click;questionario.html#;Q:7:E:1-3:B;input;217;229
+1;1234;1488415275189;click;questionario.html#;Q:5:H:1-1 list-group-item;a;138;319
+1;1234;1488415276436;click;questionario.html#;Q:7:E:1-1 list-group-item;a;104;364
+1;1234;1488415403923;click;questionario.html#;Q:7:E:1-1:D;input;224;166
+1;1234;1488415407569;click;questionario.html#;Q:6:H:1-3 list-group-item;a;96;311
+1;1234;1488415408755;click;questionario.html#;Q:7:E:1-1 list-group-item;a;93;310
+1;1234;1488415417612;click;questionario.html#;alternativas;div;714;289
+1;1234;1488415587732;click;questionario.html#;Q:4:H:1-3 list-group-item;a;99;282
+1;1234;1488415590943;click;questionario.html#;Q:4:E:1-3 list-group-item;a;135;289
+1;1234;1488415592799;click;questionario.html#;Q:4:E:1-2:C;input;218;290
+1;1234;1488415595127;click;questionario.html#;Q:5:H:1-1 list-group-item;a;106;329
+1;1234;1488415595815;click;questionario.html#;Q:4:E:1-3 list-group-item;a;104;291
+1;1234;1488415671404;click;questionario.html#;Q:3:H:1-3 list-group-item;a;121;253
+1;1234;1488415672201;click;questionario.html#;Q:4:E:1-3 list-group-item;a;108;287
+1;1234;1488415674510;click;questionario.html#;Q:4:E:1-3:A;input;218;218
+1;1234;1488415675373;click;questionario.html#;Q:3:H:1-3 list-group-item;a;72;264
+1;1234;1488415676095;click;questionario.html#;Q:4:E:1-3 list-group-item;a;72;286
+1;1234;1488415678457;click;questionario.html#;Q:4:E:1-3:D;input;221;334
+1;1234;1488415679110;click;questionario.html#;Q:3:H:1-3 list-group-item;a;150;248
+1;1234;1488415681341;click;questionario.html#;Q:4:E:1-3 list-group-item;a;128;137
+1;1234;1488415684454;click;questionario.html#;Q:4:E:1-3:E;input;225;323
+1;1234;1488415685305;click;questionario.html#;Q:3:H:1-3 list-group-item;a;92;185
+1;1234;1488415686807;click;questionario.html#;Q:4:E:1-3 list-group-item;a;134;135
+1;1234;1488424847892;click;questionario.html#;Q:2:H:1-4 list-group-item;a;100;207
+1;1234;1488424849040;click;questionario.html#;Q:1:H:1-4 list-group-item;a;104;179
+1;1234;1488425336725;click;questionario.html#;Q:3:H:1-3 list-group-item;a;88;245
+1;1234;1488425344333;click;questionario.html#;Q:4:H:1-2 list-group-item;a;97;294
+1;1234;1488425345414;click;questionario.html#;Q:3:H:1-3 list-group-item;a;98;254
+1;1234;1488425350613;click;questionario.html#;Q:5:H:1-1 list-group-item;a;124;326
+1;1234;1488425382333;click;questionario.html#;Q:9:H:1-1 list-group-item;a;134;177
+1;1234;1488425466961;click;questionario.html#;Q:6:H:1-3 list-group-item;a;38;262
+1;1234;1488425532807;click;questionario.html#;Q:10:H:1-1 list-group-item;a;84;321
+1;1234;1488425547209;click;questionario.html#;;div;446;298
+1;1234;1488425599139;click;questionario.html#;Q:10:H:1-1 list-group-item;a;113;327
+1;1234;1488425631558;click;questionario.html#;Q:9:H:1-1 list-group-item;a;122;138
+1;1234;1488425643048;click;questionario.html#;Q:10:H:1-1 list-group-item;a;71;322
+1;1234;1488425666072;click;questionario.html#;Q:10:H:1-1 list-group-item;a;136;321
+1;1234;1488426064268;click;questionario.html#;Q:10:H:1-1 list-group-item;body;51;333
+1;1234;1488426068427;click;questionario.html#;;div;1361;207
+1;1234;1488426072421;click;questionario.html#;;div;1361;207
+1;1234;1488426072837;click;questionario.html#;;div;1361;207
+1;1234;1488426073035;click;questionario.html#;;div;1361;207
+1;1234;1488426073293;click;questionario.html#;;div;1361;207
+1;1234;1488426073501;click;questionario.html#;;div;1361;207
+1;1234;1488426073733;click;questionario.html#;;div;1361;207
+1;1234;1488426073933;click;questionario.html#;;div;1361;207
+1;1234;1488426074212;click;questionario.html#;;div;1361;207
+1;1234;1488426074484;click;questionario.html#;;div;1361;207
+1;1234;1488426074804;click;questionario.html#;;div;1361;207
+1;1234;1488426075079;click;questionario.html#;;div;1361;207
+1;1234;1488426075396;click;questionario.html#;;div;1361;207
+1;1234;1488426075700;click;questionario.html#;;div;1361;207
+1;1234;1488426076564;click;questionario.html#;;div;1503;150
+1;1234;1488426077348;click;questionario.html#;;div;1503;150
+1;1234;1488426078044;click;questionario.html#;;div;1503;150
+1;1234;1488426078764;click;questionario.html#;;div;1503;150
+1;1234;1488426079247;click;questionario.html#;;div;1503;150
+1;1234;1488426079452;click;questionario.html#;;div;1503;150
+1;1234;1488426079651;click;questionario.html#;;div;1503;150
+1;1234;1488426081082;click;questionario.html#;;div;946;128
+1;1234;1488426081731;click;questionario.html#;;div;946;128
+1;1234;1488426083163;click;questionario.html#;;body;709;294
+1;1234;1488426083546;click;questionario.html#;;body;709;294
+1;1234;1488426086864;click;questionario.html#;;div;1425;212
+1;1234;1488426088386;click;questionario.html#;;body;67;327
+1;1234;1488426088845;click;questionario.html#;;body;67;327
+1;1234;1488426089079;click;questionario.html#;;body;67;327
+1;1234;1488426089261;click;questionario.html#;;body;67;327
+1;1234;1488426090331;click;questionario.html#;;body;58;338
+1;1234;1488426090527;click;questionario.html#;;body;57;339
+1;1234;1488426090713;click;questionario.html#;;body;57;339
+1;1234;1488426090950;click;questionario.html#;;body;57;339
+1;1234;1488426091162;click;questionario.html#;;body;57;339
+1;1234;1488426091369;click;questionario.html#;;body;57;339
+1;1234;1488426091574;click;questionario.html#;;body;57;339
+1;1234;1488426138092;click;questionario.html#;;div;1502;247
+1;1234;1488426138695;click;questionario.html#;;div;1502;247
+1;1234;1488426138902;click;questionario.html#;;div;1502;247
+1;1234;1488426139151;click;questionario.html#;;div;1502;247
+1;1234;1488426139357;click;questionario.html#;;div;1502;247
+1;1234;1488426139564;click;questionario.html#;;div;1502;247
+1;1234;1488426140151;click;questionario.html#;;div;1502;247
+1;1234;1488426177700;click;questionario.html#;;body;1480;296
+1;1234;1488426177886;click;questionario.html#;;body;1480;296
+1;1234;1488426178116;click;questionario.html#;;body;1480;296
+1;1234;1488426178355;click;questionario.html#;;body;1480;296
+1;1234;1488426178796;click;questionario.html#;;body;1480;296
+1;1234;1488426179179;click;questionario.html#;;body;1480;296
+1;1234;1488426179483;click;questionario.html#;;body;1480;296
+1;1234;1488426179699;click;questionario.html#;;body;1480;296
+1;1234;1488426179971;click;questionario.html#;;body;1480;296
+1;1234;1488426180243;click;questionario.html#;;body;1480;296
+1;1234;1488426180587;click;questionario.html#;;body;1480;296
+1;1234;1488426181043;click;questionario.html#;;body;1480;296
+1;1234;1488426182171;click;questionario.html#;;body;1480;296
+1;1234;1488426182826;click;questionario.html#;;body;1480;296
+1;1234;1488426212849;click;questionario.html#;;div;1400;217
+1;1234;1488426213100;click;questionario.html#;;div;1400;217
+1;1234;1488426213586;click;questionario.html#;;div;1400;217
+1;1234;1488426214138;click;questionario.html#;;div;1400;217
+1;1234;1488426214450;click;questionario.html#;;div;1400;217
+1;1234;1488426214689;click;questionario.html#;;div;1400;217
+1;1234;1488426214896;click;questionario.html#;;div;1400;217
+1;1234;1488426215065;click;questionario.html#;;div;1400;217
+1;1234;1488426215241;click;questionario.html#;;div;1400;217
+1;1234;1488426215414;click;questionario.html#;;div;1400;217
+1;1234;1488426215584;click;questionario.html#;;div;1400;217
+1;1234;1488426215764;click;questionario.html#;;div;1400;217
+1;1234;1488426216738;click;questionario.html#;;body;143;344
+1;1234;1488426216908;click;questionario.html#;;body;143;344
+1;1234;1488426221172;click;questionario.html;;div;1418;248
+1;1234;1488426221296;click;questionario.html;;div;1418;248
+1;1234;1488426221512;click;questionario.html;;div;1418;248
+1;1234;1488426221712;click;questionario.html;;div;1418;248
+1;1234;1488426221920;click;questionario.html;;div;1418;248
+1;1234;1488426222103;click;questionario.html;;div;1418;248
+1;1234;1488426222304;click;questionario.html;;div;1418;248
+1;1234;1488426224848;click;questionario.html;;body;72;345
+1;1234;1488426225056;click;questionario.html;;body;72;345
+1;1234;1488426225230;click;questionario.html;;body;72;345
+1;1234;1488426225432;click;questionario.html;;body;72;345
+1;1234;1488426225630;click;questionario.html;;body;72;345
+1;1234;1488426225849;click;questionario.html;;body;72;345
+1;1234;1488426226823;click;questionario.html;;div;1460;222
+1;1234;1488426227001;click;questionario.html;;div;1460;222
+1;1234;1488426227208;click;questionario.html;;div;1460;222
+1;1234;1488426227417;click;questionario.html;;div;1460;222
+1;1234;1488426227597;click;questionario.html;;div;1460;222
+1;1234;1488426227801;click;questionario.html;;div;1460;223
+1;1234;1488426228029;click;questionario.html;;div;1460;223
+1;1234;1488426243401;click;questionario.html;Q:10:H:1-1 list-group-item;a;93;269
+1;1234;1488426253169;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426254648;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426255273;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426256272;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426256895;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426257472;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426258647;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426258846;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426259055;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426259408;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426259680;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426259920;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426260168;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426260440;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426260680;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426260876;click;questionario.html#;Q:10:H:1-1 list-group-item;body;358;247
+1;1234;1488426264142;click;questionario.html#;Q:10:H:1-1 list-group-item;body;831;242
+1;1234;1488426266311;click;questionario.html#;Q:10:H:1-1 list-group-item;body;675;280
+1;1234;1488426267573;click;questionario.html#;Q:10:H:1-1 list-group-item;body;528;305
+1;1234;1488426268319;click;questionario.html#;Q:10:H:1-1 list-group-item;body;407;295
+1;1234;1488426269973;click;questionario.html#;Q:10:H:1-1 list-group-item;body;416;303
+1;1234;1488426271718;click;questionario.html#;Q:10:H:1-1 list-group-item;body;44;310
+1;1234;1488426272822;click;questionario.html#;Q:10:H:1-1 list-group-item;body;211;292
+1;1234;1488426273736;click;questionario.html#;Q:10:H:1-1 list-group-item;body;303;280
+1;1234;1488426275805;click;questionario.html#;Q:10:H:1-1 list-group-item;div;635;206
+1;1234;1488426276784;click;questionario.html#;Q:10:H:1-1 list-group-item;div;748;221
+1;1234;1488426278042;click;questionario.html#;Q:10:H:1-1 list-group-item;body;1000;281
+1;1234;1488426279309;click;questionario.html#;Q:10:H:1-1 list-group-item;body;1304;257
+1;1234;1488426280701;click;questionario.html#;Q:10:H:1-1 list-group-item;body;1424;245
+1;1234;1488426281997;click;questionario.html#;Q:10:H:1-1 list-group-item;div;1558;218
+1;1234;1488426282663;click;questionario.html#;Q:10:H:1-1 list-group-item;body;1365;307
+1;1234;1488426283151;click;questionario.html#;Q:10:H:1-1 list-group-item;body;1274;319
+1;1234;1488426283554;click;questionario.html#;Q:10:H:1-1 list-group-item;body;1090;349
+1;1234;1488426283948;click;questionario.html#;Q:10:H:1-1 list-group-item;body;983;359
+1;1234;1488426284382;click;questionario.html#;Q:10:H:1-1 list-group-item;body;875;377
+1;1234;1488426284999;click;questionario.html#;Q:10:H:1-1 list-group-item;body;816;382
+1;1234;1488426285624;click;questionario.html#;Q:10:H:1-1 list-group-item;body;588;339
+1;1234;1488426286084;click;questionario.html#;Q:10:H:1-1 list-group-item;body;406;326
+1;1234;1488426286553;click;questionario.html#;Q:10:H:1-1 list-group-item;body;293;300
+1;1234;1488426287805;click;questionario.html#;Q:10:H:1-1 list-group-item;body;95;312
+1;1234;1488426288495;click;questionario.html#;Q:10:H:1-1 list-group-item;body;37;313
+1;1234;1488426289783;click;questionario.html#;Q:9:H:1-1 list-group-item;a;36;205
+1;1234;1488426291311;click;questionario.html#;Q:9:H:1-1 list-group-item;div;1345;243
+1;1234;1488426293671;click;questionario.html#;Q:9:H:1-1 list-group-item;body;76;312
+1;1234;1488426296219;click;questionario.html#;Q:9:H:1-1:E;input;223;135
+1;1234;1488426298587;click;questionario.html#;Q:10:H:1-1 list-group-item;a;112;273
+1;1234;1488426301029;click;questionario.html#;Q:9:H:1-1 list-group-item;a;89;236
+1;1234;1488426310608;click;questionario.html#;Q:9:H:1-1 list-group-item;body;105;297
+1;1234;1488426311294;click;questionario.html#;Q:9:H:1-1 list-group-item;body;105;297
+1;1234;1488426312374;click;questionario.html#;Q:9:H:1-1 list-group-item;body;1336;266
+1;1234;1488426315211;click;questionario.html#;Q:1:H:1-4 list-group-item;a;46;168
+1;1234;1488426316929;click;questionario.html#;Q:10:H:1-1 list-group-item;a;98;269
+1;1234;1488426325155;click;questionario.html#;Q:9:H:1-1 list-group-item;a;107;282
+1;1234;1488426362150;click;questionario.html#;Q:9:H:1-1 list-group-item;a;79;331
+1;1234;1488426364636;click;questionario.html#;Q:10:H:1-1 list-group-item;a;102;159
+1;1234;1488426380715;click;questionario.html#;Q:9:H:1-1 list-group-item;a;138;292
+1;1234;1488426383403;click;questionario.html#;Q:10:H:1-1 list-group-item;a;71;319
+1;1234;1488426386445;click;questionario.html#;Q:6:H:1-3 list-group-item;a;110;215
+1;1234;1488426431251;click;questionario.html#;Q:10:H:1-1 list-group-item;a;95;332
+1;1234;1488426436370;click;questionario.html#;Q:7:H:1-1 list-group-item;a;135;316
+1;1234;1488426440881;click;questionario.html#;Q:6:H:1-3 list-group-item;a;155;164
+1;1234;1488426446782;click;questionario.html#;troca-Q6 btn btn-info btn-lg;button;1254;276
+1;1234;1488426448804;click;questionario.html#;Q:6:E:1-3:B;input;221;227
+1;1234;1488426450359;click;questionario.html#;Q:6:E:1-3 list-group-item;a;113;207
+1;1234;1488470997791;click;questionario.html#;Q:2:H:1-4 list-group-item;a;156;199
+1;1234;1488470999178;click;questionario.html#;Q:3:H:1-3 list-group-item;a;88;242
+1;1234;1488471000771;click;questionario.html#;Q:1:H:1-4 list-group-item;a;100;172
+1;1234;1488471010543;click;questionario.html#;troca-Q1 btn btn-info btn-lg;button;857;176
+1;1234;1488471019144;click;questionario.html#;Q:1:E:1-4 list-group-item;a;120;168
+1;1234;1488471022048;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471022596;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471023042;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471023257;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471023457;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471023715;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471023952;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471024191;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471024434;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471024682;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471024887;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471025133;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471025329;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471026232;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471026543;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471026891;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471027159;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471027498;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471028202;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471029060;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471031852;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;443
+1;1234;1488471033236;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;270;442
+1;1234;1488471036136;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;244;430
+1;1234;1488471039373;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;296;430
+1;1234;1488471040388;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;272;443
+1;1234;1488471046365;click;questionario.html#;Q:4:H:1-2 list-group-item;a;53;286
+1;1234;1488471047508;click;questionario.html#;Q:5:H:1-1 list-group-item;a;59;350
+1;1234;1488471048852;click;questionario.html#;Q:1:E:1-4 list-group-item;a;104;169
+1;1234;1488471049880;click;questionario.html#;Q:2:H:1-4 list-group-item;a;100;206
+1;1234;1488471076565;click;questionario.html#;troca-Q2 btn btn-info btn-lg;button;1111;189
+1;1234;1488471141042;click;questionario.html#;Q:3:H:1-3 list-group-item;a;155;258
+1;1234;1488471141701;click;questionario.html#;Q:3:H:1-3 list-group-item;a;134;231
+1;1234;1488471142116;click;questionario.html#;Q:2:E:1-4 list-group-item;a;134;213
+1;1234;1488471143160;click;questionario.html#;Q:1:E:1-4 list-group-item;a;142;166
+1;1234;1488471694261;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;308;453
+1;1234;1488471698964;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;285;443
+1;1234;1488471702057;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;285;443
+1;1234;1488471703536;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;285;443
+1;1234;1488471704511;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;285;443
+1;1234;1488471705341;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;285;443
+1;1234;1488471710636;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;251;429
+1;1234;1488471713391;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;251;430
+1;1234;1488471715699;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;251;430
+1;1234;1488471722964;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;251;430
+1;1234;1488471724725;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;251;430
+1;1234;1488471727682;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;251;430
+1;1234;1488471730318;click;questionario.html#;Q:2:E:1-4 list-group-item;a;99;218
+1;1234;1488471732146;click;questionario.html#;R:2:E:1-4 btn btn-info btn-lg;button;258;435
+1;1234;1488471734622;click;questionario.html#;Q:1:E:1-4 list-group-item;a;53;169
+1;1234;1488471895069;click;questionario.html#;R:1:E:1-4 btn btn-info btn-lg;button;256;430
+1;1234;1488471901432;click;questionario.html#;Q:2:E:1-4 list-group-item;a;137;215
+1;1234;1488471902438;click;questionario.html#;R:2:E:1-4 btn btn-info btn-lg;button;253;418
+1;1234;1488471903761;click;questionario.html#;Q:1:H:1-4 list-group-item;a;127;167
+1;1234;1488472057057;click;questionario.html#;Q:3:H:1-3 list-group-item;a;114;137
+1;1234;1488472082985;click;questionario.html#;troca-Q3 btn btn-info btn-lg;button;1293;183
+1;1234;1488472084089;click;questionario.html#;R:3:E:1-3 btn btn-info btn-lg;button;262;470
+1;1234;1488472084646;click;questionario.html#;;label;262;470
+1;1234;1488472084668;click;questionario.html#;Q:3:H:1-3:D;input;262;470
+1;1234;1488472085539;click;questionario.html#;;label;262;470
+1;1234;1488472085555;click;questionario.html#;Q:3:H:1-3:D;input;262;470
+1;1234;1488472086199;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472087789;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472088573;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472089484;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472090331;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472091652;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472092517;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472093684;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472095092;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472096613;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472097507;click;questionario.html#;alternativas;div;259;462
+1;1234;1488472107680;click;questionario.html#;Q:3:H:1-3:E;input;224;441
+1;1234;1488472109112;click;questionario.html#;Q:3:H:1-3:D;input;219;424
+1;1234;1488472109661;click;questionario.html#;Q:3:H:1-3:D;input;219;424
+1;1234;1488472109947;click;questionario.html#;Q:3:H:1-3:D;input;219;424
+1;1234;1488472110171;click;questionario.html#;Q:3:H:1-3:D;input;219;424
+1;1234;1488472110381;click;questionario.html#;Q:3:H:1-3:D;input;219;424
+1;1234;1488472111659;click;questionario.html#;radio;div;321;418
+1;1234;1488472112118;click;questionario.html#;radio;div;321;418
+1;1234;1488472138665;click;questionario.html#;Q:4:H:1-2 list-group-item;a;88;295
+1;1234;1488472140256;click;questionario.html#;Q:4:H:1-2 list-group-item;a;88;295
+1;1234;1488472167014;click;questionario.html#;troca-Q4 btn btn-info btn-lg;button;887;265
+1;1234;1488472168470;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472168939;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472169356;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472169885;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472170430;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472170909;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472171405;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472171813;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472172270;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472172821;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472173230;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472173853;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472174055;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472174543;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472175262;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;294;441
+1;1234;1488472649347;click;questionario.html#;troca-Q4 btn btn-info btn-lg;button;848;267
+1;1234;1488472673403;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;286;450
+1;1234;1488472861566;click;questionario.html#;Q:4:H:1-2 list-group-item;a;134;279
+1;1234;1488472888410;click;questionario.html#;troca-Q4 btn btn-info btn-lg;button;851;282
+1;1234;1488472900934;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;294
+1;1234;1488472901517;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;294
+1;1234;1488472902220;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;294
+1;1234;1488472903256;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;294
+1;1234;1488472904224;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;292
+1;1234;1488472904946;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;292
+1;1234;1488472905394;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;292
+1;1234;1488472905669;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;292
+1;1234;1488472905975;click;questionario.html#;Q:4:E:1-3 list-group-item;a;100;292
+1;1234;1488472907972;click;questionario.html#;Q:5:H:1-1 list-group-item;a;106;328
+1;1234;1488472908714;click;questionario.html#;Q:4:E:1-3 list-group-item;a;101;296
+1;1234;1488472914980;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;296;446
+1;1234;1488473105974;click;questionario.html#;Q:4:H:1-2 list-group-item;a;115;294
+1;1234;1488473132914;click;questionario.html#;troca-Q4 btn btn-info btn-lg;button;854;273
+1;1234;1488473150831;click;questionario.html#;R:4:E:1-2 btn btn-info btn-lg;button;264;444
+1;1234;1488473190753;click;questionario.html#;Q:5:H:1-1 list-group-item;a;96;325
+1;1234;1488473224161;click;questionario.html#;container;div;1046;248
+1;1234;1488473224853;click;questionario.html#;troca-Q5 btn btn-info btn-lg;button;1051;255
+1;1234;1488473228817;click;questionario.html#;troca-Q5 btn btn-info btn-lg;button;1074;286
+1;1234;1488473231650;click;questionario.html#;troca-Q5 btn btn-info btn-lg;button;1074;287
+1;1234;1488473234337;click;questionario.html#;troca-Q5 btn btn-info btn-lg;button;1074;287
+1;1234;1488473248311;click;questionario.html#;troca-Q5 btn btn-info btn-lg;button;1044;279
+1;1234;1488473250720;click;questionario.html#;Q:6:H:1-3 list-group-item;a;85;370
+1;1234;1488473257406;click;questionario.html#;Q:5:E:1-1 list-group-item;a;147;332
+1;1234;1488473283051;click;questionario.html#;Q:6:H:1-3 list-group-item;a;114;380
+1;1234;1488473284038;click;questionario.html#;Q:5:E:1-1 list-group-item;a;120;337
+1;1234;1488473297630;click;questionario.html#;Q:6:H:1-3 list-group-item;a;154;371
+1;1234;1488473324904;click;questionario.html#;troca-Q6 btn btn-info btn-lg;button;1284;276
+1;1234;1488473344427;click;questionario.html#;R:6:E:1-3 btn btn-info btn-lg;button;272;519
+1;1234;1488473357327;click;questionario.html#;Q:5:E:1-1 list-group-item;a;74;328
+1;1234;1488473397914;click;questionario.html#;R:5:E:1-1 btn btn-info btn-lg;button;264;503
+1;1234;1488473425409;click;questionario.html#;Q:10:H:1-1 list-group-item;a;97;535
+1;1234;1488473452668;click;questionario.html#;troca-Q10 btn btn-info btn-lg;button;894;474
+1;1234;1488473472592;click;questionario.html#;R:10:E:1-1 btn btn-info btn-lg;button;258;343
+1;1234;1488479902269;click;index.html;container-objects;div;661;432
+1;1234;1488479907126;click;index.html;item;a;199;376
+1;1234;1488479920565;click;questionario.html;Q:1:H:1-4 list-group-item;a;92;183
+1;1234;1488479949795;click;questionario.html#;Q:2:H:1-4 list-group-item;a;87;207
+1;1234;1488479955754;click;questionario.html#;Q:3:H:1-3 list-group-item;a;49;247
+1;1234;1488479962352;click;questionario.html#;Q:8:H:1-3 list-group-item;a;46;454
+1;1234;1488479989357;click;questionario.html#;troca-Q8 btn btn-info btn-lg;button;1090;383
+1;1234;1488480007859;click;questionario.html#;Q:8:E:1-3:A;input;216;197
+1;1234;1488480112150;click;questionario.html#;D:8:E:1-3 btn btn-info btn-lg;button;421;350
+1;1234;1488480986062;click;questionario.html#;D:8:E:1-3 close;button;1075;147
+1;1234;1488480996857;click;questionario.html#;D:8:E:1-3 btn btn-info btn-lg;button;423;341
+1;1234;1488481003925;click;questionario.html#;Q:8:E:1-3 btn btn-info btn-lg;div;398;428
+1;1234;1488481010304;click;questionario.html#;Q:7:H:1-1 list-group-item;a;149;416
+1;1234;1488481019391;click;questionario.html#;D:7:H:1-1 btn btn-info btn-lg;button;266;466
+1;1234;1488481043068;click;questionario.html#;D:7:H:1-1 close;button;1077;146
+1;1234;1488481060747;click;questionario.html#;troca-Q7 btn btn-info btn-lg;button;908;380
+1;1234;1488481065589;click;questionario.html#;R:7:E:1-1 btn btn-info btn-lg;button;299;349
+1;1234;1488481078624;click;questionario.html#;D:7:H:1-1 btn btn-info btn-lg;button;268;460
+1;1234;1488481154706;click;questionario.html#;Q:7:H:1-1 btn btn-info btn-lg;div;1084;528
+1;1234;1488481157868;click;questionario.html#;D:7:H:1-1 btn btn-info btn-lg;button;296;466
+1;1234;1488481170994;click;questionario.html#;Q:7:H:1-1 btn btn-info btn-lg;div;915;510
+1;1234;1488481175616;click;questionario.html#;D:7:H:1-1 btn btn-info btn-lg;button;244;476
+1;1234;1488481178595;click;questionario.html#;Q:7:H:1-1 btn btn-info btn-lg;div;956;532
+1;1234;1488481188595;;questionario.html#;Q:7:H:1-1 btn btn-info btn-lg;;;
