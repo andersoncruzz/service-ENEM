@@ -277,7 +277,7 @@ def receive_data(idSession):
 					fileaux.write(newdata)
 					fileaux.close()
 
-
+ 
 			#data_received =	idSession+";"+idUser+";"+timestamp+";"+event +";"+idView+";"+resource+";"+x+";"+y+"\n"
 			#fileBuffer = open("sessions-Logs/"+idSession+"/"+idUser+"_log.csv", "a")
 			#fileBuffer.write(data_received)
@@ -312,7 +312,58 @@ def receive_data(idSession):
 					auxIdView = idView.split(":")
 					aux = auxIdView[1]
 					print "aux: " + aux
+
 					answerBtnQuestionEasy(idUser, recomendation, int(aux), int(timestamp))
+					#idViewSplit = idView.split(":")
+					#print idViewSplit
+					#updateQuestionsTime(idUser, timestamp, idView)
+					#print "aqui1"
+					#print "idview: " + idView
+					idQuestion = idView.split(":")
+					idQuestion[0] = "Q"
+					#print "aqui2"
+					feedback = []
+					feedback = recommender(idUser, recomendation, int(idQuestion[1]), int(timestamp))
+					
+					print "Recomendação(SENT): " + feedback[1]
+					print "Questions (SENT): " + feedback[2]
+						
+					dt = datetime.now()
+					strTimeDate = str(dt.day) + "/" + str(dt.month) + "/" + str(dt.year) + "-" + str(dt.hour) + ":" + str(dt.minute) + ":" + str(dt.second) + "-"+ idUser + ";" + "Recomendacao(SENT): " + feedback[1] + ";" + "Questions (SENT): " + feedback[2] + "\n"
+					#strTimeDate = "ok\n"
+					logService = open("SERVICE_log.csv", "a+")
+					logService.write(strTimeDate)
+					logService.close()						
+
+					#Zerando sumario
+					sumarioFile = open("sumario.csv","r")
+					dataSumario = sumarioFile.readlines()
+					sumarioAux = list()
+					for i in dataSumario:
+						sumarioAux.append(i[0:-1])
+					sumarioFile.close()
+					
+					print "\nSUMARIO ANTES DE ZERAR CONTADOR"
+					print sumarioAux
+
+					sumario = ClearSummarizerByUser(idUser, event, timestamp, idView, sumarioAux)
+
+					print "\nSUMARIO ZERANDO CONTADOR"
+					print sumario
+
+					sumarioAux = open("sumario.csv", "w")
+					sumarioAux.close
+
+					sumarioAux = open("sumario.csv", "a+")
+					for i in sumario: 
+						sumarioAux.write(i+"\n")
+					sumarioAux.close
+
+
+
+					recommendation = [{"recommendation": feedback[1]}, {"questions":feedback[2]}]
+					#print "----Teste Recommendation OOOOOI------", recommendation
+					return jsonify({'recommendation': recommendation})
 
 				if idView != "" and idView[0] == "Q":
 					idViewSplit = idView.split(":")
