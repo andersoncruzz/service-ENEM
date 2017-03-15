@@ -231,6 +231,7 @@ def receive_data(idSession):
 			y = request.form["y"]
 			#idView = request.form["id"]
 			tela = request.form["tela"]
+			adaptacao = request.form["adaptacao"]
 			idView = request.form["classId"]    	
 			#print tela
 			
@@ -306,7 +307,7 @@ def receive_data(idSession):
 				#print "aquiii"
 				#print sumario
 
-				if idView != "" and (idView == "R:1:E:1-4 btn btn-info btn-lg" or idView == "R:2:E:1-4 btn btn-info btn-lg" or idView == "R:3:E:1-3 btn btn-info btn-lg" or idView == "R:4:E:1-2 btn btn-info btn-lg" or idView == "R:5:E:1-1 btn btn-info btn-lg" or idView == "R:6:E:1-3 btn btn-info btn-lg" or idView == "R:7:E:1-1 btn btn-info btn-lg" or idView == "R:8:E:1-3 btn btn-info btn-lg" or idView == "R:9:E:1-1 btn btn-info btn-lg" or idView == "R:10:E:1-1 btn btn-info btn-lg"):
+				if idView != "" and adaptacao == "1" and (idView == "R:1:E:1-4 btn btn-info btn-lg" or idView == "R:2:E:1-4 btn btn-info btn-lg" or idView == "R:3:E:1-3 btn btn-info btn-lg" or idView == "R:4:E:1-2 btn btn-info btn-lg" or idView == "R:5:E:1-1 btn btn-info btn-lg" or idView == "R:6:E:1-3 btn btn-info btn-lg" or idView == "R:7:E:1-1 btn btn-info btn-lg" or idView == "R:8:E:1-3 btn btn-info btn-lg" or idView == "R:9:E:1-1 btn btn-info btn-lg" or idView == "R:10:E:1-1 btn btn-info btn-lg"):
 					#btnTroca[0] = "1"
 					print "IDVIEW: " + idView
 					auxIdView = idView.split(":")
@@ -365,7 +366,7 @@ def receive_data(idSession):
 					#print "----Teste Recommendation OOOOOI------", recommendation
 					return jsonify({'recommendation': recommendation})
 
-				if idView != "" and idView[0] == "Q":
+				if idView != "" and idView[0] == "Q" and adaptacao == "1":
 					idViewSplit = idView.split(":")
 					#print idViewSplit
 					#updateQuestionsTime(idUser, timestamp, idView)
