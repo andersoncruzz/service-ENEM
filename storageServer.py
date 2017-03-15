@@ -307,7 +307,7 @@ def receive_data(idSession):
 				#print "aquiii"
 				#print sumario
 
-				if idView != "" and adaptacao == "1" and (idView == "R:1:E:1-4 btn btn-info btn-lg" or idView == "R:2:E:1-4 btn btn-info btn-lg" or idView == "R:3:E:1-3 btn btn-info btn-lg" or idView == "R:4:E:1-2 btn btn-info btn-lg" or idView == "R:5:E:1-1 btn btn-info btn-lg" or idView == "R:6:E:1-3 btn btn-info btn-lg" or idView == "R:7:E:1-1 btn btn-info btn-lg" or idView == "R:8:E:1-3 btn btn-info btn-lg" or idView == "R:9:E:1-1 btn btn-info btn-lg" or idView == "R:10:E:1-1 btn btn-info btn-lg"):
+				if idView != "" and adaptacao == "1" and (idView == "R:1:E:1-1 btn btn-info btn-lg" or idView == "R:2:E:1-1 btn btn-info btn-lg" or idView == "R:3:E:1-1 btn btn-info btn-lg" or idView == "R:4:E:1-1 btn btn-info btn-lg" or idView == "R:5:E:1-1 btn btn-info btn-lg" or idView == "R:6:E:1-1 btn btn-info btn-lg" or idView == "R:7:E:1-1 btn btn-info btn-lg" or idView == "R:8:E:1-2 btn btn-info btn-lg" or idView == "R:9:E:1-2 btn btn-info btn-lg" or idView == "R:10:E:1-2 btn btn-info btn-lg"):
 					#btnTroca[0] = "1"
 					print "IDVIEW: " + idView
 					auxIdView = idView.split(":")
